@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: bharamicrosystems/nginx:v1
+        image: jayshah2024/customnginx:0.0.1
         ports:
         - containerPort: 80
