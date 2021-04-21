@@ -19,6 +19,6 @@ spec:
         image: bharamicrosystems/nginx:v2
         ports:
         - containerPort: 80
-        envFrom:
+      envFrom:
       - secretRef:
           name: test-secret
